@@ -45,7 +45,7 @@ html,body{
     flex-wrap: wrap;
     margin-top: 15px;
 }
-.alphabet .text{
+.alphabet .text{ 
     display: flex;
     background-color: #FFFFFF;
     color: #C2D730;
@@ -57,6 +57,7 @@ html,body{
     font-size: 20px;
     border: 1px solid white;
     cursor: pointer;
+    transition: opacity 0.1s ease-in-out;
 }
 .alphabet .text:hover{
     background-color: #C1D72E;
@@ -72,7 +73,7 @@ html,body{
     align-items: center;
 }
 .CategoryName{
-    letter-spacing: 5px;
+    letter-spacing: 15px;
     font-size: 25px;
 }
 .ChosenCategory p{
@@ -103,6 +104,7 @@ p.Clue-{
 
 .live{
     position: absolute;
+    display: none;
 }
 
 .live1{
